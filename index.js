@@ -53,6 +53,9 @@ form.addEventListener('submit', function(e) {
     // console.log(emailAddress);
     // console.log(password);
 
+    alert('"Form submitted successfully! Thank you!');
+
+    //logging the data
     const getData = ((username, emailAddress, password) => {
         return { username, emailAddress, password }
     });
@@ -61,4 +64,5 @@ form.addEventListener('submit', function(e) {
     name.value = '';
     pass.value = '';
     email.value = '';
+
 });
